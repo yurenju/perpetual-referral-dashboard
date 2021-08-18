@@ -2,7 +2,7 @@
   "name": "perpetual-referral-dashboard",
   "scripts": {
     "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html",
+    "build": "parcel build --public-url ./ ./src/index.html",
     "tailwind": "npx tailwindcss -o ./src/styles/tailwind.css"
   },
   "dependencies": {
